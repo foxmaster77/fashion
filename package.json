@@ -1,0 +1,8 @@
+{
+  "name": "ori-store",
+  "private": true,
+  "scripts": {
+    "sync": "node sync.js",
+    "dev": "node sync.js && python -m http.server 8080"
+  }
+}
